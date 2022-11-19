@@ -1,8 +1,4 @@
-import json
-from datetime import datetime
+from tkinter import *
+import os
 
-r = sr.Recognizer()
-run = True
-data = {}
-with open ("notepad.json", "r") as f:
-    data = json.load()
+master = Tk()
